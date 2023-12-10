@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search-box{
+    padding: 50px;
+    text-align: center;
+
+}
+
+.search-input{
+    padding: 20px 30px;
+}
+
+#search-btn{
+    padding: 15px 30px;
+    background-color: rgb(83, 119, 30);
+    color: white;
+    font-size: 22px;
+    margin-left: 5px;
+    border: none;
+}
+
+.box{
+    width: 330px;
+    height: 500px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 12px;
+
+
+}
+
+
+
+
+#meals-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.api-image{
+    width: 90%;
+    padding: 15px
+
+}
+
+
+.modal-image{
+    width: 80%;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+#Product{
+    padding-left: 20%;
+    color: green;
+
+}
+
+
+/* Media Query for main part */
+@media only screen and (max-width: 576px)
+{
+    #unique-icon-1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px)
+{
+    #unique-icon-1{
+        display: none;
+    }
+}
+
+ @media only screen and (max-width: 992px) and (min-width: 768px)
+{
+    #unique-icon-1{
+        display: none;
+    }
+} 
+
+ @media only screen and (max-width: 1200px) and (min-width: 992px)
+{
+    .unique-icon-2{
+        display: none;
+    }
+}
+
+ @media only screen and (max-width: 1400px) and (min-width: 1200px)
+{
+    .unique-icon-2{
+        display: none;
+    }
+} 
+
+
+
